@@ -10,13 +10,15 @@ classdef Node<handle
 
     properties
        nodeValue
-       nextNode 
+       nextNode
+       colorValue
     end
     
     methods
         %Constructor
         function node = Node()
             %node.nodeValue = initValue;
+            node.colorValue = [rand(1,1) rand(1,1) rand(1,1)];
         end
         %Set Node Value
         function setNodeValue(node,dat)

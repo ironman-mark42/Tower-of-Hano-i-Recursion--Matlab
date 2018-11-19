@@ -78,6 +78,6 @@ classdef Stack<handle
                currentStack = currentStack.getNextNode();
            end
        end
-       
+
    end
 end
